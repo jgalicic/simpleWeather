@@ -1,0 +1,37 @@
+
+
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.upperBar {
+  background-color: red;
+  height: 20vh;
+  width: 100vw;
+}
+
+.upperMiddleBar {
+  background-color: orange;
+  height: 20vh;
+  width: 100vw;
+}
+
+.middleBar {
+  background-color: yellow;
+  height: 20vh;
+  width: 100vw;
+}
+
+.lowerMiddleBar {
+  background-color: green;
+  height: 20vh;
+  width: 100vw;
+}
+
+.lowerBar {
+  background-color: blue;
+  height: 20vh;
+  width: 100vw;
+}
