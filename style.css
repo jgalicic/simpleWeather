@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* #dayOfWeek {
+  font-family: 'Righteous', cursive;
+} */
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #333;
+}
+
+.upperBar {
+  background: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.3) 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#dateContainer {
+  width: 45vw;
+}
+
+#dayOfWeek {
+  font-size: 8vw;
+}
+
+#todaysDate {
+  font-size: 12vw;
+}
+
+#detailedForecast {
+  max-width: 50vw;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+#bigForecast {
+  font-size: 1.5rem;
+  letter-spacing: .05rem;
+}
+
+.upperMiddleBar {
+  background: linear-gradient(180deg, rgba(0,0,0,.3) 0%, rgba(0,0,0,0) 100%);
+}
+
+
+#timeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28vw;
+}
+
+
+.lowerMiddleBar {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.3) 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+#tempContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+#currentTempContainer {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#currentTemp{
+  font-size: 13.5vw;
+  position: relative;
+  left: 1.2vw;
+}
+
+#degreeSymbol {
+  font-size: 7.5vw;
+  z-index: 1;
+  position: relative;
+  left: 1vw;
+}
+
+#tempRangeContainer {
+  display: flex;
+}
+
+#lowTemp {
+  font-size: 4vh;
+}
+
+#tempRangeBar {
+  z-index: 2;
+  height: 3.5vh;
+  width: 12vw;
+  border-radius: 15px;
+  margin: 0 4px;
+  box-shadow: 2px 2px 10px black;
+}
+
+#highTemp {
+  font-size: 4vh;
+}
+
+#weatherIconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+#weatherIcon {
+  font-size: 12vw;
+  text-align: center;
+}
+
+#shortForecastDisplay {
+  font-size: 3.2vw;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 25vw;
+}
+
+.lowerBar {
+  background: linear-gradient(180deg, rgba(0,0,0,.3) 0%, rgba(0,0,0,.5) 100%);
+}
+
+/* Bar heights */
+.upperBar {
+  height: 25vh;
+  width: 100vw;
+}
+
+.upperMiddleBar {
+  height: 5vh;
+  width: 100vw;
+}
+
+.middleBar {
+  height: 35vh;
+  width: 100vw;
+}
+
+.lowerMiddleBar {
+  height: 25vh;
+  width: 100vw;
+}
+
+.lowerBar {
+  height: 10vh;
+  width: 100vw;
+}
